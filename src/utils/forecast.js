@@ -2,7 +2,7 @@ const request = require('postman-request')
 
 const forecast = (lat, long, callback) =>{
     const place = lat + ',%' + long
-    const key = '' //add the mapbox key here
+    const key = '' //add the weatherstack key here
     const units = '&units=m'
     const url = 'http://api.weatherstack.com/current?access_key=' + key + '&query=' + place + units
 
