@@ -1,8 +1,5 @@
 const request = require('postman-request')
 
-// // MapBox
-const key = 'a3b196827d5f666d202df009dd136c21'
-
 const forecast = (lat, long, callback) =>{
     const place = lat + ',%' + long
     const key = '' //add the mapbox key here
