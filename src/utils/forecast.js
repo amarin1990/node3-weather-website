@@ -5,7 +5,7 @@ const key = 'a3b196827d5f666d202df009dd136c21'
 
 const forecast = (lat, long, callback) =>{
     const place = lat + ',%' + long
-    const key = 'a3b196827d5f666d202df009dd136c21'
+    const key = '' //add the mapbox key here
     const units = '&units=m'
     const url = 'http://api.weatherstack.com/current?access_key=' + key + '&query=' + place + units
 
