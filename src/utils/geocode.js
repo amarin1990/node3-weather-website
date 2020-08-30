@@ -1,7 +1,7 @@
 const request = require('postman-request')
 
 // // MapBox
-const keyMapBox = 'pk.eyJ1IjoiYW1hcmluOTAiLCJhIjoiY2tkbmZ6ZWFsMGpjYjMwbmNicGRld2gxYyJ9.bP-dWnoz9T_eLoHYRlyYvw'
+const keyMapBox = '' // add the mapbox key
 
 const geocode = (address, callback) =>{
     const placesLimit = 1
